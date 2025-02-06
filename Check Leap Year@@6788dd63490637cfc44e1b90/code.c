@@ -12,7 +12,7 @@ int main() {
             printf("Not a Leap Year");
             return 0 ;
         }
-        prntf("Leap Year");
+        printf("Leap Year");
     }
     return 0;
 }
