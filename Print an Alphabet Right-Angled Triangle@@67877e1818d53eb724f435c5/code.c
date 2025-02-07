@@ -7,8 +7,10 @@ int main() {
         int count = 65 ;
         for(int j = 0 ; j < n-i; j++){
             printf("%c",count);
+            printf(" ");
             count++ ;
         }
+        printf("\n");
     } 
     return 0;
 }
