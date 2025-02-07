@@ -3,22 +3,22 @@
 int main() {
     int n ;
     scanf("%d",&n);
-    for (int i = 0 ; i < 2 * n - 1, i++){
+    for (int i = 0 ; i < 2 * n - 1; i++){
         for (int j = 0 ; j < 2 * n - 1 ; j++){
             if (i<n){
                 if((j<n-i-1) || (j> n+i+1)){
-                    printf("*");
+                    printf(" ");
                 }
                 else{
-                    printf(" ");
+                    printf("*");
                 }
             }
             else{
                 if((j < i -1 ) || (j > i + 1)){
-                    printf("*");
+                    printf(" ");
                 }
                 else{
-                    printf(" ");
+                    printf("*");
                 }
             }
         }
