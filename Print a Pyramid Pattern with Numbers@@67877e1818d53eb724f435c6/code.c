@@ -10,7 +10,7 @@ int main() {
                 printf(" ");
             }
             else{
-                printf("%d",j);
+                printf("%d",count);
             }
             count++ ;
         }
