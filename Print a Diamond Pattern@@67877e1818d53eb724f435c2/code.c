@@ -14,7 +14,7 @@ int main() {
                 }
             }
             else{
-                if((j < i - n - 1) || (j > i + n )){
+                if((j < i - n + 1) || (j > i + n )){
                     printf(" ");
                 }
                 else{
