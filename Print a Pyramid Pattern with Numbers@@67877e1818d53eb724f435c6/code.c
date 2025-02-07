@@ -5,15 +5,14 @@ int main() {
     scanf("%d",&n);
     for ( int i = 0 ; i < n ; i++){
         int count = 1 ;
-        printf("%d",count);
         for (int j = 0 ; j < 2 * n - 1 ; j++){
             if ((j< n - i -1) || (j> n+i-1)){
                 printf(" ");
             }
             else{
                 printf("%d",count);
+                count++ ;
             }
-            count++ ;
         }
         printf("\n");
     }
