@@ -13,6 +13,7 @@ int main() {
                 printf("*");
             }
         }
+        pirntf("\n");
     }
     return 0;
 }
