@@ -11,7 +11,12 @@ int main() {
             }
             else{
                 printf("%d",count);
-                count++ ;
+                if (j < n){
+                    count++ ;
+                }
+                else {
+                    count-- ;
+                }
             }
         }
         printf("\n");
