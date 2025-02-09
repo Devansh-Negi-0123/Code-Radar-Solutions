@@ -10,7 +10,7 @@ int main() {
         printf("= ");
         printf("%d",product);
         product += n ;
-        printf("/n");
+        printf("\n");
     }
     return 0;
 }
