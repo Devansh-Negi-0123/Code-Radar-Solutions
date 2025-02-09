@@ -6,7 +6,7 @@ int main() {
     int product = n ;
     for (int i = 1 ; i < 11 ; i++){
         printf("%d",n);
-        printf(" X ");
+        printf(" x ");
         printf("%d",i);
         printf(" = ");
         printf("%d",product);
