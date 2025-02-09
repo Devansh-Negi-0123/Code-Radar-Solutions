@@ -18,6 +18,8 @@ int main() {
         printf("Saturday");
         case 7 :
         printf("Sunday");
+        default:
+        printf("Invalid");
     }
 
     return 0;
