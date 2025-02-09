@@ -10,7 +10,7 @@ int main() {
         printf("%d",i);
         printf(" = ");
         printf("%d",product);
-        product = n * i ;
+        product = n * i+1 ;
         printf("\n");
     }
     return 0;
