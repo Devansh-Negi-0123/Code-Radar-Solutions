@@ -16,7 +16,6 @@ int main() {
                 break ;
             }           
         }
-        printf("Prime");
     }
     return 0;
 }
