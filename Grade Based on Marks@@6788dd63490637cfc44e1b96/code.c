@@ -3,24 +3,20 @@
 int main() {
     int n ;
     scanf("%d",&n);
-    char grade ;
-    switch (true) {
-        case(n>=90):
-            grade = A ;
-            break ;
-        case((n>=80) && (n<90)):
-            grade = B ;
-            break ;
-        case((n>=70) && (n<80)):
-            grade = C ;
-            break ;
-        case((n>=60) && (n<70)):
-            grade = D ;
-            break ;
-        case(n <= 60):
-            grade = F ;
-            break ;
+    if (n>= 90){
+        printf("A");
     }
-    printf("%c",grade);
+    else if ((n>=80) && (n<90)){
+        printf("B");
+    }
+    else if ((n>=70) && (n<80)){
+        printf("C");
+    }
+    else if ((n>=60) && (n<70)){
+        printf("D");
+    }
+    else{
+        printf("F");
+    }
     return 0;
 }
