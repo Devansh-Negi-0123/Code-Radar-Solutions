@@ -9,7 +9,7 @@ int main() {
         printf("%d",i);
         printf(" = ");
         printf("%d",product);
-        product += n ;
+        product = n * i ;
         printf("\n");
     }
     return 0;
