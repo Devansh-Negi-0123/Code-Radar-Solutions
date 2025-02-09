@@ -19,7 +19,7 @@ int main() {
     }
     else{
         if (b == 0){
-            printf("Error");
+            printf("error");
         }
         else{
             ans = a / b ;
