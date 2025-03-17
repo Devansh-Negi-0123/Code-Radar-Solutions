@@ -14,6 +14,12 @@ int isPrime ( int n ) {
 }
 
 void printPrimesInRange ( int a , int b ) { 
+    if ( a < 2 && b > 2){
+        a = 2 ;
+    }
+    if ( a < 2 && b < 2){
+        printf("No prime numbers");
+    }
     if ( a == b && isPrime(a) == 0){
         printf("No prime numbers");
     }
