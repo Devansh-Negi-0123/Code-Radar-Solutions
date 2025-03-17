@@ -14,7 +14,7 @@ int isPrime ( int n ) {
 }
 
 void printPrimesInRange ( int a , int b ) { 
-    int A[];
+    int A[b-a];
     if ( a == b ){
         if ( isPrime(a) == 0){
             printf("No prime numbers");
