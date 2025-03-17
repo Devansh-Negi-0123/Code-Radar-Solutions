@@ -14,18 +14,29 @@ int isPrime ( int n ) {
 }
 
 void printPrimesInRange ( int a , int b ) { 
+    int A[];
+    if ( a == b ){
+        if ( isPrime(a) == 0){
+            printf("No prime numbers");
+        }
+    }
     if ( a < 2 && b > 2){
         a = 2 ;
     }
-    if ( a < 2 && b < 2){
-        printf("No prime numbers");
-    }
-    if ( a == b && isPrime(a) == 0){
+    if ( a < 2 && b < 2 ){
         printf("No prime numbers");
     }
     for ( int i = a ; i <= b ; i++){
-        if(isPrime(i) == 1){
-            printf("%d ",i);
+        if (isPrime(i) == 1){
+            A.append(i);
+        }
+    }
+    if (sizeof(A) == 0 ){
+        printf("No prime numbers");
+    }
+    else{
+        for(int i = 0 , i < sizeof(A) ; i++){
+            printf("%d", A[i]);
         }
     }
     return ;
