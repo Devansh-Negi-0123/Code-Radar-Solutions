@@ -14,7 +14,7 @@ int isPrime ( int n ) {
 }
 
 void printPrimesInRange ( int a , int b ) { 
-    if ( a == 2){
+    if ( a < 2){
         printf("%d ",a);
     }
     if (a % 2 == 0){
@@ -25,9 +25,6 @@ void printPrimesInRange ( int a , int b ) {
         }
     }
     else{
-        if (a == 2 ){
-            printf("%d ",a);
-        }
         for (int i = a ; i <= b ; i = i + 2){
             if (isPrime(i) == 1){
                 printf("%d ",i);
